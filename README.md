@@ -1,5 +1,5 @@
 # Code and Milktea
-```
+```markdown
 🧋 Sip some code like you sip milktea!  
 
 This repo mixes **fun with tech**, featuring:  

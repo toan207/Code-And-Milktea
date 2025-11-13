@@ -1,0 +1,3 @@
+# Code and Milktea
+- I often solve problems at LeetCode to practice my algorithms. You can follow me at [My LeetCode](https://leetcode.com/u/toan207/)
+- My all folder: [Algorithm](https://github.com/toan207/Technology-Research-Diary/tree/main/Diary/Algorithm), [Database](https://github.com/toan207/Technology-Research-Diary/tree/main/Diary/Algorithm), [System Design](https://github.com/toan207/Technology-Research-Diary/tree/main/Diary/SystemDesign).

@@ -1,3 +1,7 @@
+package main
+
+import "sort"
+
 func intersectionSizeTwo(intervals [][]int) int {
     sort.Slice(intervals, func(i, j int) bool {
         if intervals[i][1] == intervals[j][1] {
@@ -23,4 +27,4 @@ func intersectionSizeTwo(intervals [][]int) int {
     }
 
     return setSize
-}	
+}

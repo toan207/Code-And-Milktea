@@ -1,4 +1,8 @@
-class _757 {
+package Milktea.LeetCode.Code.Java;
+
+import java.util.Arrays;
+
+public class _757 {
     public int intersectionSizeTwo(int[][] intervals) {
         Arrays.sort(intervals, (a, b) -> {
             if (a[1] == b[1]) {

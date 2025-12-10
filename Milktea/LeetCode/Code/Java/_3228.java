@@ -1,5 +1,3 @@
-package Milktea.LeetCode.Code.Java;
-
 public class _3228 {
   public int maxOperations(String s) {
     int point = 0;

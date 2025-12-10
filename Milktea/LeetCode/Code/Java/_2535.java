@@ -1,5 +1,3 @@
-package Milktea.LeetCode.Code.Java;
-
 public class _2535 {
   public int[][] rangeAddQueries(int n, int[][] queries) {
     int[][] mx = new int[n][n];

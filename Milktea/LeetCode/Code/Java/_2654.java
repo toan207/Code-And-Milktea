@@ -1,5 +1,3 @@
-package Milktea.LeetCode.Code.Java;
-
 public class _2654 {
   public int minOperations(int[] nums) {
     int n = nums.length;

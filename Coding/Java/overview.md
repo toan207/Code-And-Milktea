@@ -24,7 +24,6 @@
 
 #### Metaspace (Method Area)
 - Metaspace chứa các class metadata
->Metadata là thông tin về class, method, field, constant pool, ... dưới dạng bytecode
 - Đặc điểm:
     - Chia sẻ giữa các thread
     - Được GC (Garbage Collection)
@@ -32,6 +31,7 @@
     - Không nằm trong Heap
     - Dùng bộ nhớ native OS
     - Có thể bị OutOfMemoryError khi Metaspace đầy
+>Metadata là thông tin về class, method, field, constant pool, ... dưới dạng bytecode
 
 ### Tổng hợp
 | Đặc điểm | Heap | Stack | Metaspace |

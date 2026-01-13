@@ -31,7 +31,7 @@
     - Không nằm trong Heap
     - Dùng bộ nhớ native OS
     - Có thể bị OutOfMemoryError khi Metaspace đầy
->Metadata là thông tin về class, method, field, constant pool, ... dưới dạng bytecode
+>Class metadata là thông tin về class, method, field, constant pool, ... dưới dạng bytecode
 
 ### Tổng hợp
 | Đặc điểm | Heap | Stack | Metaspace |

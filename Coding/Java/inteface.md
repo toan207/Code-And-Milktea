@@ -4,6 +4,8 @@
 - Các thuộc tính trong `interface` phải là các thuộc tính **public**.
 - Các biến trong `interface` phải là `final` và `static`.
 - Class kế thừa `interface` sẽ phải có đầy đủ các method có trong `interface`.
+- Class có thể kế thừa từ (extends) một class và implement (implements) nhiều `interface`.
+- `interface` có thể kế thừa (extends) từ nhiều `interface`.
 
 ```java
 interface Animal {

@@ -21,11 +21,14 @@
 - Các node lá sẽ chứa thông tin của record.
 - Một bảng chỉ có một clusterd index.
 - Khi tạo một primary key thì database sẽ ngầm tạo Clustered Index.
+- Nếu bảng không có clustered index thì nó được gọi là một Heap.
 
 ### Non-Clusterd Index
 - Tạo ra các index cho các cột khác theo dạng cấu trúc B+Tree.
 - Tại node lá sẽ chứa thông tin của Clustered Index (primary key).
 - Địa chỉ vật lý có thể bị thay đổi nên các node lá sẽ không lưu lại địa chỉ vật lý trong secondary index.
+- Tạo tối đa 999 non-clustered index cho mỗi bảng.
+- Non-clustered index không ảnh hưởng đến thứ tự vật lý của các hàng dữ liệu trong bảng.
 
 >Index sẽ khiến cho các phương thức write vào database chậm đi, tốn tài nguyên lưu trữ vật lý.
 

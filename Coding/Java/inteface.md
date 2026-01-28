@@ -26,3 +26,24 @@ class Dog implements Animal {
 }
 
 ```
+
+### Type Of Interface
+- Normal interface: interface có các abstract method.
+- Marker interface: interface không có abstract method.
+- Functional interface / SAM interface (Single Abstract Method): interface chỉ có 1 abstract method.
+- Marker interface thường được sử dụng để đánh dấu một class để nó có thể được sử dụng trong một số framework hoặc library.
+
+```java
+// Normal interface
+interface Runnable {
+    void run();
+}
+
+// Marker interface
+interface MarkerInterface {}
+
+// Functional interface / SAM interface (Single Abstract Method)
+interface FunctionalInterface {
+    void singleMethod();
+}
+```

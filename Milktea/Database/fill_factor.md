@@ -1,0 +1,13 @@
+### Fill Factor
+- Fill factor xác định tỷ lệ phần trăm của mỗi page trong clustered index hoặc non-clustered index.
+- Fill factor có giá trị từ 0 đến 100 mặc định là 0, giá trị càng cao thì page càng đầy.
+- Xác định tỉ lệ phần trăm dữ liệu sẽ được lấp đầy trên mỗi trang (8KB) khi tạo index, phần còn lại sẽ được để trống nhằm giảm thiểu việc resize page.
+- Fill factor càng cao thì hiệu quả của index càng cao nhưng tốn thêm tài nguyên lưu trữ vật lý.
+- Nên chọn fill factor là 80% để giảm thiểu việc resize page.
+- Fill factor xuất hiện trong các DB dưới dạng:
+    - **PostgreSQL**: `fillfactor`
+    - **MySQL**: `fill_factor`
+    - **SQL Server**: `fill factor`
+    - **Oracle**: `pctfree`
+    - **InnoDB**: `innodb_fill_factor`
+    - **MongoDB**: `fillFactor`

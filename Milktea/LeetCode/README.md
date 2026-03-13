@@ -4,6 +4,7 @@
 - [595](https://github.com/toan207/Code-And-Milktea/blob/main/Milktea/LeetCode/Solution/595.md) (Database)
 - [1148](https://github.com/toan207/Code-And-Milktea/blob/main/Milktea/LeetCode/Solution/1148.md) (Database)
 - [1378](https://github.com/toan207/Code-And-Milktea/blob/main/Milktea/LeetCode/Solution/1378.md) (Database)
+- [1511](https://github.com/toan207/Code-And-Milktea/blob/main/Milktea/LeetCode/Solution/1511.md) (Advanced SQL 50)
 - [1683](https://github.com/toan207/Code-And-Milktea/blob/main/Milktea/LeetCode/Solution/1683.md) (Database)
 - [1757](https://github.com/toan207/Code-And-Milktea/blob/main/Milktea/LeetCode/Solution/1757.md) (Database)
 ## Medium
